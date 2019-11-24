@@ -32,3 +32,5 @@ The latest ECMAScript standard defines eight data types:
    - Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.
 
 2. and Object
+
+:point_right: **JavaScript has dynamic typing: data types are automatically assigned to variables**.
