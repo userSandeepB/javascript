@@ -1,12 +1,7 @@
-// Variable declaration using 'var' keyword
-var name;
+var firstName = "Mike";
+console.log(firstName);
 
-// Assign a value to variable using assignment operator (=)
-name = "John";
+var lastName = "Smith";
+console.log(lastName);
 
-// We can access a variable using variable's name
-console.log(name);
-
-// Variable declare using var with no assigned value specified has the value of undefined
-var yearOfBirth;
-console.log(yearOfBirth);
+var age = 7;
