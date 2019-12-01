@@ -28,3 +28,12 @@ Variables are a fundamental concept of every programming langauge. Variable is l
   - **Object**
 
 > **JavaScript has dynamic typing**: data types are automatically assigned to variables.
+
+# Type Coercion in JavaScript :unlock:
+
+**Type Coercion**: JavaScript automatically converts the type as it needed for example:
+
+```javascript
+var nameAndAge = "John" + 28;
+console.log(nameAndAge);
+```

@@ -13,3 +13,11 @@ console.log(typeof job);
 
 var hobbies = null;
 console.log(typeof favColors);
+
+// Type Coercion in JavaScript
+var nameAndAge = "John" + 28;
+console.log(typeof nameAndAge);
+
+var whoIsJohn =
+  "John is a " + 28 + " years old " + "Teacher. Is he married? " + false;
+console.log(whoIsJohn);
