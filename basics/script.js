@@ -1,4 +1,4 @@
-// Fundamental of Variable and Data Types
+// Fundamental of Variables and Data Types
 var firstName = "John";
 console.log(typeof firstName);
 
