@@ -12,7 +12,7 @@ var job;
 console.log(typeof job);
 
 var hobbies = null;
-console.log(typeof favColors);
+console.log(typeof hobbies);
 
 // Type Coercion in JavaScript
 var nameAndAge = "John" + 28;
