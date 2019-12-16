@@ -1,23 +1,10 @@
-// Fundamental of Variables and Data Types
-var firstName = "John";
-console.log(typeof firstName);
-
-var age = 28;
-console.log(typeof age);
-
-var fullAge = true;
-console.log(typeof fullAge);
-
+// Variables and Data Types
+var firstName = "Ross";
+var age = 20;
+var isMarried = false;
 var job;
-console.log(typeof job);
+var favMovie = null;
 
-var hobbies = null;
-console.log(typeof hobbies);
-
-// Type Coercion in JavaScript
-var nameAndAge = "John" + 28;
-console.log(typeof nameAndAge);
-
-var whoIsJohn =
-  "John is a " + 28 + " years old " + "Teacher. Is he married? " + false;
-console.log(whoIsJohn);
+// Type Coercion
+var result = firstName + age;
+console.log(`${result} is ${typeof result}`);
