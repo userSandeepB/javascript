@@ -1,30 +1,14 @@
-// Object literal syntax
-var rob = {
-  firstName: "Rob",
-  lastName: "Gelen",
-  birthYear: 1990,
-  family: ["Jack", "Victoria", "Emy"],
-  job: "Actor",
-  isMarried: false
+// 01. Object literal
+var peter = {
+  firstName: "Peter",
+  lastName: "Smith",
+  birthYear: 2013,
+  family: ["Jack", "Jane"]
 };
 
-// Accessing object properties
-console.log(rob.firstName);
-console.log(rob["lastName"]);
-
-// Object mutatation
-rob.firstName = "Robb";
-rob["isMarried"] = true;
-
-console.log(rob);
-
-// Object using new operator
+// 02. Using new keyword
 var jack = new Object();
-jack.firstName = "Jack";
-jack.lastName = "Gelen";
-jack.birthYear = 1962;
-jack["family"] = ["Victoria", "Rob", "Emy"];
-jack.job = "Software Developer";
-isMarried = true;
-
-console.log(jack);
+jack.firstName = "Jack"; // dot notation
+jack.birthYear = 1990;
+jack.family = ["Jane", "Peter"];
+jack["lastName"] = "Smith"; // bracket notation
