@@ -1,7 +1,7 @@
 // Variables and Data Types
-var firstName = "Ross";
-var age = 20;
-var isMarried = false;
+var firstName = "Peter";
+var age = 7;
+var isAdult = false;
 var job;
 var favMovie = null;
 
